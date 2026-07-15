@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACE00000000000000000001 /* KitchenTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000001 /* KitchenTheme.swift */; };
+		FACE00000000000000000002 /* FoodModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000002 /* FoodModels.swift */; };
+		FACE00000000000000000003 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000003 /* FoodData.swift */; };
+		FACE00000000000000000004 /* PantryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000004 /* PantryStore.swift */; };
+		FACE00000000000000000005 /* KitchenIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000005 /* KitchenIcons.swift */; };
+		FACE00000000000000000006 /* SharedUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000006 /* SharedUI.swift */; };
+		FACE00000000000000000007 /* FridgeRescueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000007 /* FridgeRescueApp.swift */; };
+		FACE00000000000000000008 /* SkilletLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000008 /* SkilletLoadingScreen.swift */; };
+		FACE00000000000000000009 /* LarderWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000009 /* LarderWebPanel.swift */; };
+		FACE0000000000000000000A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED0000000000000000000A /* RootView.swift */; };
+		FACE0000000000000000000B /* PantryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED0000000000000000000B /* PantryView.swift */; };
+		FACE0000000000000000000C /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED0000000000000000000C /* RecipesView.swift */; };
+		FACE0000000000000000000D /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED0000000000000000000D /* RecipeDetailView.swift */; };
+		FACE0000000000000000000E /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED0000000000000000000E /* SavedView.swift */; };
+		FACE0000000000000000000F /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED0000000000000000000F /* MoreView.swift */; };
+		FACE00000000000000000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000010 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FEED00000000000000000001 /* KitchenTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KitchenTheme.swift"; sourceTree = "<group>"; };
+		FEED00000000000000000002 /* FoodModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodModels.swift"; sourceTree = "<group>"; };
+		FEED00000000000000000003 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodData.swift"; sourceTree = "<group>"; };
+		FEED00000000000000000004 /* PantryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PantryStore.swift"; sourceTree = "<group>"; };
+		FEED00000000000000000005 /* KitchenIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KitchenIcons.swift"; sourceTree = "<group>"; };
+		FEED00000000000000000006 /* SharedUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedUI.swift"; sourceTree = "<group>"; };
+		FEED00000000000000000007 /* FridgeRescueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FridgeRescueApp.swift"; sourceTree = "<group>"; };
+		FEED00000000000000000008 /* SkilletLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SkilletLoadingScreen.swift"; sourceTree = "<group>"; };
+		FEED00000000000000000009 /* LarderWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LarderWebPanel.swift"; sourceTree = "<group>"; };
+		FEED0000000000000000000A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView.swift"; sourceTree = "<group>"; };
+		FEED0000000000000000000B /* PantryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PantryView.swift"; sourceTree = "<group>"; };
+		FEED0000000000000000000C /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecipesView.swift"; sourceTree = "<group>"; };
+		FEED0000000000000000000D /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecipeDetailView.swift"; sourceTree = "<group>"; };
+		FEED0000000000000000000E /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedView.swift"; sourceTree = "<group>"; };
+		FEED0000000000000000000F /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoreView.swift"; sourceTree = "<group>"; };
+		FEED00000000000000000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEED00000000000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEED00000000000000000012 /* Fridge Rescue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fridge Rescue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB000000000000000000000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				FB0000000000000000000004 /* Fridge Rescue */,
+				FB0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0000000000000000000004 /* Fridge Rescue */ = {
+			isa = PBXGroup;
+			children = (
+				FEED00000000000000000001 /* KitchenTheme.swift */,
+				FEED00000000000000000005 /* KitchenIcons.swift */,
+				FEED00000000000000000006 /* SharedUI.swift */,
+				FEED00000000000000000002 /* FoodModels.swift */,
+				FEED00000000000000000003 /* FoodData.swift */,
+				FEED00000000000000000004 /* PantryStore.swift */,
+				FEED00000000000000000007 /* FridgeRescueApp.swift */,
+				FEED00000000000000000008 /* SkilletLoadingScreen.swift */,
+				FEED00000000000000000009 /* LarderWebPanel.swift */,
+				FEED0000000000000000000A /* RootView.swift */,
+				FEED0000000000000000000B /* PantryView.swift */,
+				FEED0000000000000000000C /* RecipesView.swift */,
+				FEED0000000000000000000D /* RecipeDetailView.swift */,
+				FEED0000000000000000000E /* SavedView.swift */,
+				FEED0000000000000000000F /* MoreView.swift */,
+				FEED00000000000000000010 /* Assets.xcassets */,
+				FEED00000000000000000011 /* Info.plist */,
+			);
+			path = "Fridge Rescue";
+			sourceTree = "<group>";
+		};
+		FB0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEED00000000000000000012 /* Fridge Rescue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0000000000000000000005 /* Fridge Rescue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0000000000000000000007 /* Build configuration list for PBXNativeTarget "Fridge Rescue" */;
+			buildPhases = (
+				FB000000000000000000000C /* Sources */,
+				FB000000000000000000000D /* Frameworks */,
+				FB000000000000000000000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fridge Rescue";
+			productName = "Fridge Rescue";
+			productReference = FEED00000000000000000012 /* Fridge Rescue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FB0000000000000000000005 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FB0000000000000000000006 /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB0000000000000000000002;
+			productRefGroup = FB0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0000000000000000000005 /* Fridge Rescue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB000000000000000000000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE00000000000000000010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB000000000000000000000C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE00000000000000000001 /* KitchenTheme.swift in Sources */,
+				FACE00000000000000000005 /* KitchenIcons.swift in Sources */,
+				FACE00000000000000000006 /* SharedUI.swift in Sources */,
+				FACE00000000000000000002 /* FoodModels.swift in Sources */,
+				FACE00000000000000000003 /* FoodData.swift in Sources */,
+				FACE00000000000000000004 /* PantryStore.swift in Sources */,
+				FACE00000000000000000007 /* FridgeRescueApp.swift in Sources */,
+				FACE00000000000000000008 /* SkilletLoadingScreen.swift in Sources */,
+				FACE00000000000000000009 /* LarderWebPanel.swift in Sources */,
+				FACE0000000000000000000A /* RootView.swift in Sources */,
+				FACE0000000000000000000B /* PantryView.swift in Sources */,
+				FACE0000000000000000000C /* RecipesView.swift in Sources */,
+				FACE0000000000000000000D /* RecipeDetailView.swift in Sources */,
+				FACE0000000000000000000E /* SavedView.swift in Sources */,
+				FACE0000000000000000000F /* MoreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB0000000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB0000000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB000000000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Fridge Rescue/Info.plist";
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fridgerescue.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FB000000000000000000000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Fridge Rescue/Info.plist";
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fridgerescue.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0000000000000000000006 /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0000000000000000000008 /* Debug */,
+				FB0000000000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0000000000000000000007 /* Build configuration list for PBXNativeTarget "Fridge Rescue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB000000000000000000000A /* Debug */,
+				FB000000000000000000000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB0000000000000000000001 /* Project object */;
+}
