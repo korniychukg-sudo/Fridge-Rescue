@@ -13,7 +13,7 @@
 		FACE00000000000000000004 /* PantryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000004 /* PantryStore.swift */; };
 		FACE00000000000000000005 /* KitchenIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000005 /* KitchenIcons.swift */; };
 		FACE00000000000000000006 /* SharedUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000006 /* SharedUI.swift */; };
-		FACE00000000000000000007 /* PantrioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000007 /* PantrioApp.swift */; };
+		FACE00000000000000000007 /* FridgefulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000007 /* FridgefulApp.swift */; };
 		FACE00000000000000000008 /* SkilletLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000008 /* SkilletLoadingScreen.swift */; };
 		FACE00000000000000000009 /* LarderWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED00000000000000000009 /* LarderWebPanel.swift */; };
 		FACE0000000000000000000A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED0000000000000000000A /* RootView.swift */; };
@@ -37,7 +37,7 @@
 		FEED00000000000000000004 /* PantryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PantryStore.swift"; sourceTree = "<group>"; };
 		FEED00000000000000000005 /* KitchenIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KitchenIcons.swift"; sourceTree = "<group>"; };
 		FEED00000000000000000006 /* SharedUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedUI.swift"; sourceTree = "<group>"; };
-		FEED00000000000000000007 /* PantrioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PantrioApp.swift"; sourceTree = "<group>"; };
+		FEED00000000000000000007 /* FridgefulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FridgefulApp.swift"; sourceTree = "<group>"; };
 		FEED00000000000000000008 /* SkilletLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SkilletLoadingScreen.swift"; sourceTree = "<group>"; };
 		FEED00000000000000000009 /* LarderWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LarderWebPanel.swift"; sourceTree = "<group>"; };
 		FEED0000000000000000000A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView.swift"; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		FEED0000000000000000000F /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoreView.swift"; sourceTree = "<group>"; };
 		FEED00000000000000000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEED00000000000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FEED00000000000000000012 /* Pantrio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pantrio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEED00000000000000000012 /* Fridgeful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fridgeful.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEED00000000000000000013 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiscoverView.swift"; sourceTree = "<group>"; };
 		FEED00000000000000000014 /* CuisineViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CuisineViews.swift"; sourceTree = "<group>"; };
 		FEED00000000000000000015 /* CookModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CookModeView.swift"; sourceTree = "<group>"; };
@@ -70,12 +70,12 @@
 		FB0000000000000000000002 = {
 			isa = PBXGroup;
 			children = (
-				FB0000000000000000000004 /* Pantrio */,
+				FB0000000000000000000004 /* Fridgeful */,
 				FB0000000000000000000003 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FB0000000000000000000004 /* Pantrio */ = {
+		FB0000000000000000000004 /* Fridgeful */ = {
 			isa = PBXGroup;
 			children = (
 				FEED00000000000000000001 /* KitchenTheme.swift */,
@@ -84,7 +84,7 @@
 				FEED00000000000000000002 /* FoodModels.swift */,
 				FEED00000000000000000003 /* FoodData.swift */,
 				FEED00000000000000000004 /* PantryStore.swift */,
-				FEED00000000000000000007 /* PantrioApp.swift */,
+				FEED00000000000000000007 /* FridgefulApp.swift */,
 				FEED00000000000000000008 /* SkilletLoadingScreen.swift */,
 				FEED00000000000000000009 /* LarderWebPanel.swift */,
 				FEED0000000000000000000A /* RootView.swift */,
@@ -101,13 +101,13 @@
 				FEED00000000000000000010 /* Assets.xcassets */,
 				FEED00000000000000000011 /* Info.plist */,
 			);
-			path = "Pantrio";
+			path = "Fridgeful";
 			sourceTree = "<group>";
 		};
 		FB0000000000000000000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEED00000000000000000012 /* Pantrio.app */,
+				FEED00000000000000000012 /* Fridgeful.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FB0000000000000000000005 /* Pantrio */ = {
+		FB0000000000000000000005 /* Fridgeful */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB0000000000000000000007 /* Build configuration list for PBXNativeTarget "Pantrio" */;
+			buildConfigurationList = FB0000000000000000000007 /* Build configuration list for PBXNativeTarget "Fridgeful" */;
 			buildPhases = (
 				FB000000000000000000000C /* Sources */,
 				FB000000000000000000000D /* Frameworks */,
@@ -127,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = "Pantrio";
-			productName = "Pantrio";
-			productReference = FEED00000000000000000012 /* Pantrio.app */;
+			name = "Fridgeful";
+			productName = "Fridgeful";
+			productReference = FEED00000000000000000012 /* Fridgeful.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -160,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FB0000000000000000000005 /* Pantrio */,
+				FB0000000000000000000005 /* Fridgeful */,
 			);
 		};
 /* End PBXProject section */
@@ -188,7 +188,7 @@
 				FACE00000000000000000002 /* FoodModels.swift in Sources */,
 				FACE00000000000000000003 /* FoodData.swift in Sources */,
 				FACE00000000000000000004 /* PantryStore.swift in Sources */,
-				FACE00000000000000000007 /* PantrioApp.swift in Sources */,
+				FACE00000000000000000007 /* FridgefulApp.swift in Sources */,
 				FACE00000000000000000008 /* SkilletLoadingScreen.swift in Sources */,
 				FACE00000000000000000009 /* LarderWebPanel.swift in Sources */,
 				FACE0000000000000000000A /* RootView.swift in Sources */,
@@ -271,14 +271,14 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Pantrio/Info.plist";
+				INFOPLIST_FILE = "Fridgeful/Info.plist";
 				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pantryharbor.pantrio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pantryharbor.fridgeful;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -302,14 +302,14 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Pantrio/Info.plist";
+				INFOPLIST_FILE = "Fridgeful/Info.plist";
 				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pantryharbor.pantrio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pantryharbor.fridgeful;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB0000000000000000000007 /* Build configuration list for PBXNativeTarget "Pantrio" */ = {
+		FB0000000000000000000007 /* Build configuration list for PBXNativeTarget "Fridgeful" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB000000000000000000000A /* Debug */,
